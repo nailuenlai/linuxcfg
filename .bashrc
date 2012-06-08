@@ -107,3 +107,5 @@ if [ -f /etc/bash_completion ] && ! shopt -oq posix; then
 fi
 
 alias gits='git status'
+alias rm='rm -i'
+git config color.diff auto
