@@ -9,6 +9,8 @@ alias gits='git status'
 git config color.diff auto
 
 export CLICOLOR=1
+# use Ctrl-x, Ctrl-e to edit current command history. :wq to carry out.
+export EDITOR=vim
 
 if [ -f /opt/local/etc/profile.d/bash_completion.sh ]; then
 	. /opt/local/etc/profile.d/bash_completion.sh
@@ -21,4 +23,3 @@ fi
 # MacPorts Installer addition on 2012-07-19_at_14:12:08: adding an appropriate PATH variable for use with MacPorts.
 #export PATH=/opt/local/bin:/opt/local/sbin:$PATH
 # Finished adapting your PATH environment variable for use with MacPorts.
-
