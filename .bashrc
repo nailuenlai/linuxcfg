@@ -1,0 +1,7 @@
+alias rm='rm -i'
+alias cp='cp -i'
+alias mv='mv -i'
+alias ls='ls --color=auto'
+alias ll='ls -lF'
+alias la='ls -A'
+alias l='ls -CF'
