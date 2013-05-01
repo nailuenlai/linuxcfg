@@ -17,8 +17,11 @@ if [ -f /opt/local/etc/profile.d/bash_completion.sh ]; then
 	. /opt/local/etc/profile.d/bash_completion.sh
 fi
 
-##
-# Your previous /Users/allenlai/.bash_profile file was backed up as /Users/allenlai/.bash_profile.macports-saved_2012-07-19_at_14:12:08
-##
-
 export PATH=/usr/local/bin:/usr/local/sbin:/usr/local/share/python:$PATH
+
+export JAVA_HOME="$(/usr/libexec/java_home)"
+
+# Setting PATH for EPD_free-7.3-2
+# The orginal version is saved in .bash_profile.pysave
+PATH="/Library/Frameworks/Python.framework/Versions/Current/bin:${PATH}"
+export PATH
