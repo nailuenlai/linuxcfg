@@ -14,6 +14,8 @@ fi
 
 export PATH=/usr/local/bin:/usr/local/sbin:/usr/local/share/python:$PATH
 
+export JAVA_HOME="$(/usr/libexec/java_home)"
+
 # Setting PATH for EPD_free-7.3-2
 # The orginal version is saved in .bash_profile.pysave
 PATH="/Library/Frameworks/Python.framework/Versions/Current/bin:${PATH}"
