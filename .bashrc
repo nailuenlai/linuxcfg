@@ -10,6 +10,7 @@ alias gits='git status'
 git config --global color.diff auto
 git config --global core.excludesfile ~/.gitignore_global
 git config --global user.name "Allen Lai"
+source /usr/local/etc/bash_completion.d/git-completion.bash
 
 export CLICOLOR=1
 
