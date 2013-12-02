@@ -12,6 +12,6 @@ if [ -f /opt/local/etc/profile.d/bash_completion.sh ]; then
 	. /opt/local/etc/profile.d/bash_completion.sh
 fi
 
-export PATH=/usr/local/bin:/usr/local/sbin:/usr/local/share/python:$PATH
+export PATH=/usr/local/bin:/usr/local/sbin:$PATH
 
 export JAVA_HOME="$(/usr/libexec/java_home)"
