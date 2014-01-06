@@ -5,5 +5,4 @@ echo "========= python ========="
 /usr/local/bin/pip install --upgrade setuptools
 /usr/local/bin/pip install --upgrade pip
 echo "========= vim ========="
-#(cd ~/.vim/bundle && git clone https://github.com/scrooloose/syntastic.git)
-/usr/local/bin/git pull ~/.vim/bundle/syntastic/
+/usr/local/bin/git pull ~/.vim/bundle/syntastic/ || (mkdir ~/.vim/bundle && cd ~/.vim/bundle && git clone https://github.com/scrooloose/syntastic.git)
