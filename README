@@ -1,1 +1,4 @@
 #defaults write com.apple.Maps AppleLanguages '("zh-TW")'
+#Disable/Enable /.MobileBackups which is local TimeMachine when offline
+#sudo tmutil disablelocal
+#sudo tmutil enablelocal
