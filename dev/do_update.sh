@@ -1,4 +1,4 @@
-echo <(date)
+echo $(date)
 /usr/local/bin/brew update
 echo "========= Homebrew: OUTDATED ========="
 /usr/local/bin/brew outdated
