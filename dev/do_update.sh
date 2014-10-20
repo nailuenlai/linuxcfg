@@ -1,6 +1,7 @@
 echo $(date)
 /usr/local/bin/brew update
 /usr/local/bin/brew cleanup
+/usr/local/bin/brew prune
 echo "========= Homebrew: OUTDATED ========="
 /usr/local/bin/brew outdated
 echo "========= python ========="
