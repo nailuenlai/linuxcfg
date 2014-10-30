@@ -5,7 +5,7 @@ alias mv='mv -i'
 alias ll='ls -lF'
 alias la='ls -A'
 alias l='ls -CF'
-alias ipy='ipython3 --matplotlib'
+alias ipy='ipython3 --matplotlib -i ~/dev/startup.py'
 
 alias gits='git status'
 #git config --global color.diff auto
