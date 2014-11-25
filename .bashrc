@@ -16,3 +16,6 @@ source `brew --repository`/Library/Contributions/brew_bash_completion.sh
 export CLICOLOR=1
 
 export JAVA_HOME="$(/usr/libexec/java_home)"
+
+export LC_CTYPE=C
+export LANG=C
