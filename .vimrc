@@ -1,3 +1,5 @@
+set encoding=utf-8
+
 execute pathogen#infect()
 
 syntax on
@@ -15,3 +17,5 @@ augroup END
 map <F8> <ESC>:TlistToggle<CR>
 
 set tags=./tags,tags;$HOME
+
+autocmd BufWritePre *.py :%s/\s\+$//e
