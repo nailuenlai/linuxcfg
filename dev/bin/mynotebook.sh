@@ -1,3 +1,3 @@
-source ~/dev/py_env/bin/activate
+source "$MY_PYTHON3_ENV"/bin/activate
 ipython notebook #--pylab inline
 deactivate
