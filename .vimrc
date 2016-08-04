@@ -1,5 +1,8 @@
 set encoding=utf-8
 
+" require vim 7.4+
+set clipboard=unnamed
+
 execute pathogen#infect()
 
 syntax on
