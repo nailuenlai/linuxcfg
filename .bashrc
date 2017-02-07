@@ -4,4 +4,4 @@ alias mv='mv -i'
 alias ll='ls -lF'
 
 alias gits='git status'
-
+alias tmux='tmux -u'
